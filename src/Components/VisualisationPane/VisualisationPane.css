@@ -1,0 +1,30 @@
+  .ui-container {
+        display: flex;
+        flex-direction: row;           
+        overflow: hidden;                   
+    }
+   
+    .splitter {
+        flex: 0 0 auto;
+        width: 4px;
+        background: center center no-repeat #535353;
+        cursor: col-resize;
+    }
+    .visualisation-pane {
+        flex: 1 1 auto; 
+        padding: 0px;
+        width: 100%;
+    }
+    .panel { 
+        background-color: #fff;
+    }
+    
+
+    #cy {
+        position: relative;
+      /*  top: -200px;*/
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        min-height: 100vh;
+    }
